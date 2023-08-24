@@ -18,7 +18,7 @@ a {
 }
 
 p{
-    line-height:
+    line-height: 1.5;
 }
 
 body {
@@ -227,9 +227,9 @@ footer h3{
     text-align: center;
 }
 
-.home-section p{
+/*.home-section p{
     max-width: 70%;
-}
+}*/
 
 .home-callout{
     background-color: #000;
