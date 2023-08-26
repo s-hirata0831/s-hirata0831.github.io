@@ -585,33 +585,41 @@ footer h3 {
         display: none;
     }
 
+    .blog-recent {
+        display: none;
+    }
+
+    .blog-previews {
+        padding: 0;
+    }
+
     /*ギャラリースタイル*/
-    .gallery{
+    .gallery {
         flex-direction: column;
     }
 
-    .gallery .col{
+    .gallery .col {
         padding: 1em;
     }
 
-    .gallery .gallery-thumbs{
+    .gallery .gallery-thumbs {
         flex: 1;
         height: auto;
         white-space: nowrap;
         width: 100vw;
     }
 
-    .gallery-thumbs > div{
+    .gallery-thumbs>div {
         display: inline-block;
     }
 
-    .gallery-thumbs img{
+    .gallery-thumbs img {
         height: 7vh;
         margin: 0 10px 0 0;
         width: auto;
     }
 
-    .gallery .gallery-info{
+    .gallery .gallery-info {
         flex: 1;
     }
 }
